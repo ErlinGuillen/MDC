@@ -1,0 +1,9 @@
+/* mystyle.css */
+* {
+	color: darkblue;
+	text-align: center;
+	font-size: 100%;
+}
+.darkgreen{
+	color: darkgreen;
+}
