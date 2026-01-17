@@ -1,4 +1,4 @@
-// myScript.js
+// myScript.js //
 function myFunction() {
-   alert("This setting isn't avaliable")
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
