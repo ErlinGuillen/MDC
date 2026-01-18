@@ -6,21 +6,23 @@
 <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-	<p title="I'm a tooltip"><b>Home</b></p>
+	<p title="I'm a tooltip" ><b style="color:black">Erlin's Unnaming - Home/Website</b></p>
 	<hr>
-	<a style="color:red" href="https://www.youtube.com/@ErlinGuillen_YT">YouTube</a>
-	<p title="I'm a tooltip"><b>Hello, My name is Erlin, and welcome to my website, You can check out my youtube channel</b></p>
+	<pre><a style="color:red" href="https://www.youtube.com/@ErlinGuillen_YT">YouTube</a></pre>
+	<p title="I'm a tooltip"><b style="color:darkred">Hello, My name is Erlin, and welcome to my website, You can check out my youtube channel</b></p>
 	<hr>
-	<h1 title="I'm a header" class="darkgreen">What's new in v0.4</h1>
-    <h5 title="I'm a header" class="darkgreen">Style coding is now connecting heading and paragraph - HTML<br>the Html is now working double on style - CSS<br>window.alert replaced a alert() and improvement - JAVA<br>added b on the paragraph - HTML<br>added .css file - CSS<br> added console.log() and improvements - JAVA<br>added hr coding in the body - HTML</h5>
+	<h1 title="I'm a header">What's new in v0.5</h1>
+    <h5 title="I'm a header" class="versionlist">Added background - CSS<br>added window.print() on button and small improvement - JAVA<br>added "pre" coding - HTML<br>added margin-left - CSS<br>getElementById("name").innerHTML is now connecting to html and improvement - JAVA<br>Styles is now connecting html - HTML<br>Bug fixes and improvement - CSS</h5>
 	<hr>
-	<p><b>These button is currently unavailable when opening</b></p>
-	<button type="button" onclick="myFunction()"><b>Under Construction (Setting)</b></button>
-	<button type="button" onclick="document.write(7 + 21)">Under Construction (Math)</button>
-	<p><img src="ChatGPT Image Jan 3, 2026, 04_21_52 PM.png" width="104" height="142"></p>
+	<p title="I'm a tooltip"><b>These button is currently unavailable when opening</b></p>
+	<button type="button" onclick="myFunction()" class="button">Under Construction (Setting)</button>
+	<button type="button" onclick="document.write(7 + 21)" class="button">Under Construction (Math)</button>
+	<button onclick="window.print()" class="button">Print</button>
+	<p id="demo"></p>
+	<p title="I'm a tooltip"><img src="ChatGPT Image Jan 3, 2026, 04_21_52 PM.png" width="104" height="142"></p>
 	<script src="myscript.js"></script>
-	<script>alert("Develop website");</script>
 	<script>console.log("Java is working");</script>
+	<script>document.getElementById("demo").innerHTML = 35;</script>
 	<script>function myFunction() {window.alert("This setting isn't avaliable"}</script>
 </body>
 </html>
